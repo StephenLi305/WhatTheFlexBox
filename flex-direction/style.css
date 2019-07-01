@@ -33,12 +33,17 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
   border:10px solid goldenrod;
   min-height:100vh;
-  flex-direction: column-reverse;
-  /* flex-wrap:wrap; */
+  /* flex-direction: column-reverse;   */
+  flex-wrap:wrap;
 }
 
 /* main axis is left to right */
 /* cross axis is from top to bottom */
 .box {
+  width: calc(33.3333333% - 20px);
   /* width:33.3333333%; */
+  /* width: 300px; */
+  margin: 10px;
+  border: 10px solid yellow;
+  padding: 10px;
 }
