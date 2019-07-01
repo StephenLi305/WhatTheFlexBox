@@ -37,10 +37,23 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   flex:1;
 }
 
+
 .box3 {
+  order:-1;
+}
+
+.box4{
+  order:4;
+}
+
+.box8 {
+  order:3;
+}
+/* .box3 {
   order:1;
 }
 
 .box5 {
   order:2;
-}
+} */ */
+/* try highlighting/ selecting the numbers on the html. It doesn't change the actual DOM */
