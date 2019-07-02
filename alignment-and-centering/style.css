@@ -32,17 +32,26 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .container {
   display: flex;
-  justify-content: space-evenly;
-  border: 3px solid brown;
+  /* justify-content: space; */
+  border: 10px solid brown;
   flex-direction: column;
   min-height: 100vh;
+  align-items: center;
 
 }
 
 
 /* working on the main axis with justify content */
 /* working on the cross axis with align */
-
+.box1{
+  font-size: 30px;
+}
+.box2{
+  font-size: 100px;
+}
+.box1{
+  font-size: 150px;
+}
 
 
 
