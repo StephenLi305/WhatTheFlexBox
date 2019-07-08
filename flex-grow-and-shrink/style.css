@@ -29,16 +29,39 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 /* We start writing out flexbox here. The above is just page setup */
+
+/* flex grow default is 0, which is do nothing, stay at your ideal space */
+/* default when there isn't enough room, split it evenly */
+/* flex shrik - how much should I give up and shrink myself for others */
+
+/* flex: grow shrink basis */
 .container {
   display:flex;
 }
 
 .box1 {
+  /* flex:1; */
+  /* flex-basis: 2000px;
+  flex-grow: 1;
+  flex-shrink: 10; */
+
+  flex: 10 5 400px
+}
+.box2 {
+  /* flex:1; */
+  /* flex-basis: 2000px;
+  flex-shrink: 5; */
+  flex: 1 1 400px
+}
+
+
+
+/* .box1 {
   flex:10 5 400px;
 }
 
 .box2 {
   flex:1 1 400px;
-}
+} */
 
 
