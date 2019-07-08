@@ -32,18 +32,21 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .container {
   display: flex;
-  /* justify-content: space; */
-  border: 10px solid brown;
-  flex-direction: column;
-  min-height: 100vh;
-  align-items: center;
+  border: 10px pink solid;  
+  height: 100vh;
+  flex-wrap: wrap;
 
+  align-content: center;
+  justify-content: center;
 }
 
+.box {
+  width: 33.33%;
+}
 
 /* working on the main axis with justify content */
 /* working on the cross axis with align */
-.box1{
+/* .box1{
   font-size: 30px;
 }
 .box2{
@@ -51,7 +54,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 .box1{
   font-size: 150px;
-}
+} */
 
 
 
