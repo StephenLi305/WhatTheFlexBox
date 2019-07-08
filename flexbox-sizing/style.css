@@ -40,3 +40,17 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box2 {
   flex:2;
 }
+.box5 {
+  flex:5;
+}
+
+/* flex 1 helps with filling out the empty space, but when you have flex 2, it will double flex 1 */
+
+/* 
+.box {
+  flex:1;
+}
+
+.box2 {
+  flex:2;
+} */
